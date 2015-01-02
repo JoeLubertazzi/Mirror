@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\mirror\Mirror.h" />
+    <ClInclude Include="..\..\..\..\src\mirror\Mirror_Type.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\mirror\Mirror.hpp" />
+    <ClInclude Include="..\..\..\..\src\mirror\Mirror_Types.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\mirror\Mirror_Utility.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\mirror\Mirror_Export.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\mirror\Mirror_Settings.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\mirror\internal\Mirror_Internal.h" />
+    <ClInclude Include="..\..\..\..\src\mirror\Mirror_TypeTraits.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\mirror\Mirror_TypeModifier.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\mirror\Mirror_TypeCategory.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\mirror\Mirror_Primitive.h">
+      <Filter>Type\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\mirror\Mirror_TypeModifier.hpp">
+      <Filter>Type</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Type">
+      <UniqueIdentifier>{e155744e-36cc-4b65-b30c-bf6b73ff636e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{d73df4fd-d7a2-44b2-839a-2172c8cb7226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type\Primitive">
+      <UniqueIdentifier>{85986df6-3510-4586-913b-ac67e22cd8c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\mirror\Mirror_Type.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\mirror\Mirror.cpp" />
+    <ClCompile Include="..\..\..\..\src\mirror\internal\Mirror_Internal.cpp" />
+    <ClCompile Include="..\..\..\..\src\mirror\Mirror_Primitive.cpp">
+      <Filter>Type\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\mirror\internal\Mirror_InitializeType_Internal.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
