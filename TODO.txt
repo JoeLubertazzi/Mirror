@@ -3,3 +3,4 @@
 * Doxygen commenting
 * File headers
 * Unit tests
+* Premake/cmake builds
