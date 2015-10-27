@@ -1,1 +1,4 @@
 * Custom allocator support
+* Alphabetize functions
+* Doxygen commenting
+* File headers
