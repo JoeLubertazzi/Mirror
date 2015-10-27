@@ -2,3 +2,4 @@
 * Alphabetize functions
 * Doxygen commenting
 * File headers
+* Unit tests
